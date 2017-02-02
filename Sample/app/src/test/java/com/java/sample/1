@@ -1,0 +1,72 @@
+All Your Base
+Say a new number system is developed with the letters ABC and it maps to base 10 numbering as follows
+
+1: A
+2: B
+3: C
+4: AA
+5: AB
+6: AC
+7: BA
+and so on
+
+Write a program to find the representation in the new system given number N in base 10. In the previous example if N = 15, then the number would be: AAC
+
+Input:
+
+The first line of the input consists of a single integer T, the number of test cases. Each test case consists of the string L and the integer N, separated by a space.
+
+Output:
+
+For each test case i numbered from 1 to T, output "Case #i: ", followed by the number.
+
+Sample Input:
+
+4
+XDRT 455
+VLJHWZSEYC 3485029384757573948
+ERDL 3443
+A 50
+Sample Output:
+
+Case #1: XDTXR
+Case #2: JHEHCLYJEHSWSWSJYHE
+Case #3: DEERLD
+Case #4: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Sample Input
+4
+XDRT 455
+VLJHWZSEYC 3485029384757573948
+ERDL 3443
+A 50
+Sample Output
+Case #1: XDTXR
+Case #2: JHEHCLYJEHSWSWSJYHE
+Case #3: DEERLD
+Case #4: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

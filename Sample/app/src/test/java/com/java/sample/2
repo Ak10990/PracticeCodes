@@ -1,0 +1,43 @@
+import java.util.*;
+
+class TestClass {
+    public static void main(String args[] ) throws Exception {
+        Scanner s = new Scanner(System.in);
+        int t = s.nextInt();
+        int r,c,i,j,k,x,y,z;String str;
+        // int []a;
+        Set<Integer> set=new HashSet<>();
+        for (i = 0; i < t; i++) {
+            r=s.nextInt();
+            c=s.nextInt();
+            // a=new int[r][c];
+            set.clear();
+            z=0;
+            for(j=0;j<r;j++){
+                x=0;
+                for(k=0;k<c;k++){
+                    y=s.nextInt();
+                    if(y==1){
+                        x++;
+                    }
+                }
+                if(x>z){
+                    z=x;
+                    set.clear();
+                    set.add(j);
+                }else if(x==z){
+                    set.add(j);
+                }
+                
+            }
+            str="";
+            for(Integer p: set){
+                str+=p+" ";
+            }
+            System.out.println("Case #"+(i+1)+": "+str);
+            if(s.hasNext()){
+            s.nextLine();}
+        }
+    }
+}
+
